@@ -1,15 +1,16 @@
-# progressive-web-application-text-editor
+# TECTEDITORPWASTYLE
+
 ## Table of Contents
 1. [Description](#description)
 2. [Technology](#technology)
 3. [Installation](#installation)
 4. [Visuals](#visuals)
-5. [License](#license)
+
 
 ## Description
 This is a progressive web application that can function in a browser operating both online and offline. Additionally, the app can be used in a freestanding context and still operate correctly (by use of an integrated service worker and Cache APIs). The goal was to showcase a platform for users to be able to take notes or write code snippets regardless of having an active internet connection.
 \
-[Heroku Deployed Link](https://desolate-taiga-69412.herokuapp.com/)
+[Heroku Deployed Link](https://texteditorpwaproject19-14daca96dc53.herokuapp.com/)
 ## Technology
 This application uses Express, IndexedDB, Webpack & WebpackPwaManifest Plugins, Concurrently, Babel, Babel extensions, and Heroku to live host the finished product. 
 
@@ -35,5 +36,3 @@ Running App Functionally Offline
 
 Running as Freestanding PWA 
 ![Freestanding PWA](./images/Freestanding.png)
-## License
-This application is licensed with the MIT License.
